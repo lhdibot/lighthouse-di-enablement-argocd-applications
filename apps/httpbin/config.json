@@ -1,0 +1,48 @@
+{
+  "app": {
+    "name": "httpbin",
+    "path": "deploy/httpbin",
+    "environments": {
+      "dev": {
+        "target_revision": "HEAD",
+        "auto_sync": "true",
+        "sync_options": "ServerSideApply=true",
+        "on_created_slack": "",
+        "on_deployed_slack": "",
+        "on_deleted_slack": "",
+        "on_health_degraded_slack": "",
+        "on_sync_failed_slack": ""
+      },
+      "qa": {
+        "target_revision": "HEAD",
+        "auto_sync": "true",
+        "sync_options": "ServerSideApply=true",
+        "on_created_slack": "",
+        "on_deployed_slack": "",
+        "on_deleted_slack": "",
+        "on_health_degraded_slack": "",
+        "on_sync_failed_slack": ""
+      },
+      "sandbox": {
+        "target_revision": "HEAD",
+        "auto_sync": "true",
+        "sync_options": "ServerSideApply=true",
+        "on_created_slack": "",
+        "on_deployed_slack": "",
+        "on_deleted_slack": "",
+        "on_health_degraded_slack": "",
+        "on_sync_failed_slack": ""
+      },
+      "prod": {
+        "target_revision": "HEAD",
+        "auto_sync": "true",
+        "sync_options": "ServerSideApply=true",
+        "on_created_slack": "",
+        "on_deployed_slack": "",
+        "on_deleted_slack": "",
+        "on_health_degraded_slack": "",
+        "on_sync_failed_slack": ""
+      }
+    }
+  }
+}
